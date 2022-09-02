@@ -1,0 +1,26 @@
+.dataForm form{
+     display: flex;
+     flex-wrap: wrap;
+     background: rgb(175, 171, 171);
+     padding: 10px;
+     margin-top: 20px;
+     align-items: flex-end;
+}
+
+.dataForm form > div{
+     width: 50%;
+     padding: 4px 10px;
+}
+
+.dataForm label{
+     font-size: 12px;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+.dataForm input,
+.dataForm select,
+.dataForm label{
+     display: block;
+     width: 100%;
+}

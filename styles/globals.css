@@ -24,3 +24,20 @@ a {
     background: black;
   }
 }
+
+table{
+     width: 100%;
+}
+
+table th,
+table td{
+     border-bottom: 1px solid #ccc;
+     padding: 4px 8px;
+     text-align: left;
+}
+
+button{
+     padding: 2px 4px;
+     font-size: 12px;
+     margin-right: 2px;
+}
